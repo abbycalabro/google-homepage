@@ -1,0 +1,71 @@
+#logo {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -100px 0 0 -150px;
+}
+
+#logo_img {
+	width: 280px;
+	height: 100px;
+}
+
+#mic {
+	position: absolute;
+        display: block;
+        margin: 0 auto;
+        top: 55%;
+	left: 68.5%;
+	height: 19px;
+	margin-top: 5px;
+	margin-right: 10px;
+	opacity: .55;
+}
+
+#text_box {
+	position: absolute;
+	display: block;
+	width: 590px;
+	height: 29px;
+	margin: 0 auto;
+	top: 55%;
+	left: 27%;
+	border: 1px solid #6699FF;
+	color: #BABABA;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: right;
+	-webkit-box-sizing: border-box;
+	padding-right: 40px;
+}
+
+.button {
+	background: #F6F6F6;
+	border: 1px solid #C8C8C8;
+	font-weight: bold;
+	color: #464646;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	height: 30px;
+}
+
+#search_button {
+	-webkit-appearance: none;
+	position: absolute;
+        display: block;
+        margin: 0 auto;
+        top: 62%;
+        left: 41%;
+	font-family: Arial;
+}
+
+#lucky_button {
+        -webkit-appearance: none;
+	position: absolute;
+        display: block;
+        margin: 0 auto;
+        top: 62%;
+        left: 49%;
+	font-family: Arial;
+}
+
