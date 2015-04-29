@@ -21,13 +21,13 @@
 	opacity: .6;
 }
 
-ul {
+#navbar {
 	list-style-type: none;
 	margin-top: 22px;
 	margin-right: 25px;
 }
 
-li {
+.nav_li {
 	float: right;
 	margin-right: -8px;
 }
@@ -74,7 +74,7 @@ a {
 	margin: 0 auto;
 	top: 55%;
 	left: 27%;
-	border: 1px solid #6699FF;
+	border: 1px solid #C8C8C8;
 	color: #BABABA;
 	font-family: Arial;
 	font-size: 16px;
@@ -113,3 +113,30 @@ a {
 	font-family: Arial;
 }
 
+#footer {
+	list-style-type: none;
+	position: fixed;
+	bottom: 0px;
+	background: #F6F6F6;
+	width: 100%;
+	height: 27px;
+	border-top: 1px solid #DEDEDE;
+	font-family: Arial;
+	font-size: 13px;
+	padding-top: 10px;
+	color: #6B6B6B;
+	-webkit-box-sizing: border-box;
+	padding-right: 20px;
+	padding-left: 20px;
+	box-shadow: 0px 500px 0px 500px #F6F6F6;
+}
+
+.l_footer {
+	float: left;
+	padding-right: 28px;
+}
+
+.r_footer {
+	float: right;
+	padding-right: 28px;
+}
